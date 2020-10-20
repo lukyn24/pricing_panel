@@ -1,3 +1,24 @@
 body {
     background-color: #1ac6ff;
+    text-transform: uppercase;
+    font-family: "Roboto", "Verdana";
+}
+
+#container {
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    background-color: #f2f2f2;
+    height: 600px;
+    width: 300px;
+    margin: 0;
+}
+
+img {
+    width: 150px;
+    height: 100px;
 }
