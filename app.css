@@ -68,3 +68,30 @@ img {
     background-color: blue;
 }
 
+.button-white:hover {
+    color: white;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.button-blue:hover {
+    color: #33adff;
+    background-color: white;
+    transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+    #container {
+        flex-direction: column;
+        margin-top: 0;
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    #container {
+        flex-direction: column;
+        margin-top: 0;
+        width: 80%;
+    }
+}
